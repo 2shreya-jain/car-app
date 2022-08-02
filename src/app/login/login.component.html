@@ -1,0 +1,26 @@
+<div class="col col-6 login--l">
+  <div class="title"><span class="text">Login</span></div>
+  <div class="login--body">
+    <label>
+      <div class="label">Email address</div>
+      <input
+        [(ngModel)]="email"
+        type="text"
+        placeholder="Enter your Email"
+        required
+      />
+    </label>
+    <label>
+      <div class="label">Password</div>
+      <input
+        [(ngModel)]="password"
+        type="password"
+        placeholder="Enter you password"
+        required
+      />
+    </label>
+    <div class="sbmt">
+      <button class="sbmt--btn" (click)="login()">Login</button>
+    </div>
+  </div>
+</div>
